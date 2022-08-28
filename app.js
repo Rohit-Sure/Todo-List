@@ -6,7 +6,7 @@ const _ = require("lodash");
 
 const app = express();
 
-mongoose.connect("mongodb+srv://admin-Rohit:teddy123@cluster0.evicgs9.mongodb.net/todolist");
+mongoose.connect("<Enter the URL of MongoDB database link of Atlas or localhost>");
 
 app.set("view engine", "ejs");
 
